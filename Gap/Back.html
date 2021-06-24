@@ -1,0 +1,20 @@
+<!--Show the question-->
+{{FrontSide}}
+
+<!--Line separator-->
+<hr id=answer>
+
+<div class="box sentence">
+    {{#Prefix}}<div class="prefix">{{Prefix}}</div>{{/Prefix}}<div class="missed-word">{{Missed-Word}}</div>{{#Suffix}}<div class="suffix">{{Suffix}}</div>{{/Suffix}}
+</div>
+
+{{#Usage-Info}}
+<div class="box extra-info">
+    {{Usage-Info}}
+</div>
+{{/Usage-Info}}
+
+<!--Tags apper when hovering at the top of card-->
+<div class="box tags">
+    {{Tags}}
+</div>

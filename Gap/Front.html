@@ -1,0 +1,21 @@
+<div class="box question">
+    {{Task}}
+</div>
+
+{{#Picture}}
+    {{Picture}}
+{{/Picture}}
+
+<div class="box options">
+    {{Options}}
+</div>
+
+<div class="box sentence">
+    <!--If there's prefix and/or suffix, display it and/or them-->
+    {{#Prefix}}<div class="prefix">{{Prefix}}</div>{{/Prefix}}<div class="blank">_______</div>{{#Suffix}}<div class="suffix">{{Suffix}}</div>{{/Suffix}}
+</div>
+
+<!--Accept user's guess-->
+<div class="user-input">
+    {{type:Missed-Word}}
+</div>

@@ -1,0 +1,31 @@
+{{#Picture}}
+    {{Picture}}
+{{/Picture}}
+
+<div class="box chunk">
+    {{Chunk}}
+    <div class="part-of-speech">
+        ({{Part-of-Speech}})
+    </div>
+</div>
+
+<div class="box definition">
+    <div style='color:#27c93f; display:inline'>=</div> {{Definition}}
+</div>
+
+{{#Simular}}
+<div class="box simular">
+    <div style='color:#ffbd2d; display:inline'>~</div> {{Simular}}
+</div>
+{{/Simular}}
+
+
+<div class="box sentence">
+    <!--If there's prefix and/or suffix, display it and/or them-->
+    {{#Prefix}}<div class="prefix">{{Prefix}}</div>{{/Prefix}}<div class="blank">_______</div>{{#Suffix}}<div class="suffix">{{Suffix}}</div>{{/Suffix}}
+</div>
+
+<!--Accept user's guess-->
+<div class="user-input">
+    {{type:Missed-Word}}
+</div>
