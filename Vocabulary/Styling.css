@@ -153,7 +153,7 @@ a:active {
 }
 
 /* Styling for bold-underline-italic-link */
-b { color: #C695C6 !important; } /* BOLD STYLE */
+b { color: IndianRed !important; } /* BOLD STYLE */
 u { text-decoration: none; color: #5EB3B3;} /* UNDERLINE STYLE */
-i  { color: IndianRed; } /* ITALICS STYLE */
+i  { color: LightGreen; } /* ITALICS STYLE */
 a { color: LightGray !important; text-decoration: none; font-size: 10px; font-style: normal; } /* LINK STYLE */
